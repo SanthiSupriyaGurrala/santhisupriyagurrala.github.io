@@ -107,7 +107,14 @@ const wishLabel = document.getElementById("wishLabel");
 const wishResp = document.getElementById("wishResponse");
 const nameEl = document.querySelector(".greeting .name");
 
-const NAMES = ["Santhi Supriya Gurrala", "Rasi"];
+const NAMES = [
+  "Santhi Supriya Gurrala",
+  "Rasi",
+  "Shanuuu",
+  "Walking Golden Bar",
+  "Dinosaur",
+  "Vayyari",
+];
 let nameIdx = 0;
 
 const WISH_PHRASES = [
