@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday! &#127881;</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background scene: balloons & ribbons injected by JS -->
+    <div class="scene" id="scene"></div>
+
+    <!-- -- Main card ------------------------------------------- -->
+    <div class="card-wrapper">
+      <div class="card">
+        <span class="card-icon">&#127874;</span>
+
+        <!-- Change "Sarah" to the birthday person's name -->
+        <h1 class="greeting">
+          Happy Birthday,<br />
+          <span class="name">Santhi Supriya Gurrala</span> &#127881;
+        </h1>
+
+        <div class="divider"></div>
+
+        <p class="message">
+          May this day bring you as much joy as you bring to everyone around
+          you. Here&#39;s to celebrating you &mdash; your kindness, your
+          laughter, and all the beautiful adventures that still lie ahead.
+        </p>
+
+        <button class="wish-btn" id="wishBtn">
+          <span id="wishIcon">&#10024;</span>
+          <span id="wishLabel">Make a Wish</span>
+        </button>
+
+        <p class="wish-response" id="wishResponse">
+          Your wish has floated up to the stars&#8230; &#127775;
+        </p>
+
+        <div class="card-footer">With love &amp; warm wishes</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
