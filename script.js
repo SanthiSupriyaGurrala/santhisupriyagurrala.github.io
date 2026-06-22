@@ -1,6 +1,19 @@
 /* ── Build background scene ─────────────────────────────── */
 const scene = document.getElementById("scene");
 
+/* ── Secret message on 7 clicks ─────────────────────────── */
+const mainMsg = document.getElementById("mainMessage");
+const secretMsg = document.getElementById("secretMessage");
+let msgClickCount = 0;
+
+mainMsg.addEventListener("click", () => {
+  msgClickCount++;
+  if (msgClickCount >= 7) {
+    mainMsg.style.display = "none";
+    secretMsg.style.display = "block";
+  }
+});
+
 const BALLOONS = [
   { left: "4%", color: "#f4a7b9", dur: "10s", delay: "0s" },
   { left: "14%", color: "#c8a8e9", dur: "13s", delay: "2.8s" },

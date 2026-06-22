@@ -240,6 +240,12 @@ body {
   font-weight: 300;
   max-width: 400px;
   margin: 0 auto 36px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.hidden-message {
+  display: none;
 }
 
 /* ── Button ────────────────────────────────────────────── */
